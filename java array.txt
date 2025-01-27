@@ -1,0 +1,202 @@
+an array is a similar type of data-- syntax so we use data type 
+		ARRAY 
+		datatype[]arname;
+			or
+		datatype []arname;
+			or
+		datatype arrayname[];
+
+allocating memory to the array or mention the size of the array
+		ex- int num[];
+		    num = new int[5];                    
+
+     0    1    2    3    4
+   __________________________
+   |____|____|____|____|____|
+    2000 2004 2008 2012 2016
+		    
+
+		ex:- int num = new int[5];
+
+we can initialising the array using following syntax
+        	
+	ex:- int num = new int[5];
+			or
+	     int num = {60,50,58,57};
+			or
+	     	num[0]=20;
+		num[1]=10;
+		num[2]=20;
+		num[3]=30;
+		num[4]=40;
+	     
+ in java the array indices start from zero the first element of an array is stored in index zero also if the size of the array is n then the last element of the array will be at the index {N-1}. 
+		
+to access elements of an array in java. index number is used 
+		ex- system.out.println("first element"+" "+num[0]);
+
+we can also access the elements of an array using loops we use in this case length property of an array to get the size of an array 
+        ex:- 	int num = new int[5];
+		for(int i=0 ; i<num.length; i++){
+		System.out.println(num[i]);				
+};
+
+ write java program to input 10 integer value and store it in the array. also display those value.
+ write a java to input 10 integer number calculate the sum of 10 number and display it.	
+ 
+
+
+multiple classes, constructor in java- we can create more then one classes in java how ever we can include main function in only one class and the program name must be same as the class which consist of main function.
+		
+	eg:-	class A{
+		}
+		class B{
+		}
+		class C{
+		}
+		class main class{
+		public static void main(string arg[])
+		}
+
+java constructors - a constructors in java is similar to a method that is invoked when an object of a class is created a (constructors has the same name as that of the class) and does not have any return type. when the object is created the constructor is called 
+
+			ex-  class constructoreg{
+			     constructor eg (){
+			     scanner.out.println("Inside the constructor");
+			     }
+			     public static void main(string arg[]){
+			     constructoreg constr = new constructoreg();
+			     }	
+			     }
+
+
+types of constructors- in java constructor is divided into three types	
+			1- no argument constructor
+			2- parametrise constructor
+			3- default constructor
+
+No argument constructor- similar to method a java constructor may or may not have any parameters or argument. if an constructor does not accept any parameter than it is called as no argument constructor. 
+           
+	eg given above
+
+if we make a const. private then it cant  be accessed outside the class so creating the objects from the out side the class is not possible using the private const.
+			
+	ex-
+
+Parametrise const. - a java const. which accepts one or more parameters is called as parametrise const.
+
+		ex- class constructoreg{
+		    string plang;
+		    constructoreg(string str){
+		    plang =  str;
+		    scanner.out.println(plang);
+		    }
+		    public static void main(string arg[]){
+		    constructoreg constr = new constructor ("java");
+		    }
+		    }
+
+default const.- if we do not create any const. the java compiler automatically creates a no argument constructor during the execution the program this is called as default const.	
+		eg- class constructoreg{
+		    int num;
+		    boolean value;
+		    public static void main(string arg[]){
+	       	    	constructoreg constr = new constructor();
+		    	scanner.out.print(constr.num);
+                    	scanner.out.print(constr.value);
+		    }
+		    }
+
+THE DEFALUT const. initializing any uninitialising variable with default value as given below
+
+		Type                Default value
+
+		int			0	
+		byte			0
+		short			0
+		long			0L
+		float			0.0f
+		double			0.0d
+		boolean			false
+		char			\u0000			
+	 	object			ref null
+
+
+Practical Lab Book-----
+	             |
+
+        Q-1  write java program to demonstrate 
+
+first no argument const. create a class called course name. create a no argument const. and display that you are in the course name const.
+
+second parametrise create a class named as rectangle. create two fields for the class rectangle initialising the value in the const. and in main display area of the rectangle.
+
+third default const. create a class named as square create a field using default const. access the field and display it.
+
+
+
+	Q-!2 write java programs for the following 
+		
+		1 to short numeric array in ascending and descending order	
+		2 input array elements and display same of cubic values 
+		3 to display unique element in the array
+		4 input element in the array check weather the number is even or odd and store the even number in second array 
+   
+
+
+
+
+Method Overloading -----
+when we use same function name and that defer in parameter (diff. number of parament, diff. type of parameter or both ) this method is called method overloading. 
+method overloading in not associated the same and different retune type but type must diff. in parameter
+
+eg:-
+class Methodoverloading{
+	public static void main(String [] args){
+	Methodoverloading mo = new me Methodoverloading();
+	mo.display(5);
+	mo.display(10,15);
+}
+void display(int n1){
+	System.out.println(n1);
+		    }
+void display(int n1 , int n2){
+	System.out.println(n1+" " +n2);
+			     }
+}
+
+Question:-
+		write a java program to demonstrate method overloading in terms of passing different parameter create a function name as add it should be called twice with the different number of parameter to display addition of integer.
+
+		write a java program in terms of passing different type parameter create a method name as add  in the first method definition its add to integer and display is the result in the 2 method definition it as add to decimal number and display the result.
+
+
+Methos Overloading------
+
+two or more method have the same inside the same class if they accept the diff. 
+methos overloading is achieved by either the change the argument or by change the data type argument
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
