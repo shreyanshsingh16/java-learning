@@ -1,0 +1,10 @@
+Q-1 explain the function of web server in the context of web dev ?
+Q-2 explain the difference btw frontend and backend dev ?
+Q-3 discuss the importance of web development ? (own word answer )
+Q-4 how do domain name system (DNS) and IP address works together  to direct user to website ?
+Q-5 discuss the role of transport layer in the OSI model ?
+
+
+
+
+

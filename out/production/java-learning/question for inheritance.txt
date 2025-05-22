@@ -1,0 +1,63 @@
+in java there are 3 types of 
+single inheritance 
+multi level inheritance 
+hierarchical inheritance 
+In java multiple and hybrid inheritance is supported only through interface.
+
+SINGLE INHERITANCE
+When one class is derived from a parent class it is called as single inheritance .
+Please note that only one class is inherited from another class
+
+
+____________ 
+|	    |
+|           |
+|___________|
+      |
+      |
+-------------
+|            |
+|            |
+|____________
+
+
+Demonstrate the use of single inheritance for the following
+Create
+ a class named as person which includes the fields with respect to person and the method to display its details 
+create an employee class which consists of salary as a field and department name 
+create a method which displays employee name , salary and department name 
+
+
+
+---Write a program to implement single inheritance
+
+create a class name as bank account with field account no balance and interest rate and a method deposit that add an account to the balance create a sub class saving account that extend bank account an adds a field minimum balance and the method withdraw  that subtract an amount from the balance create an object of bank account class and call deposit create an object of saving account and call the method deposit and withdraw
+
+
+---Write a  program to implement multi level inheritance
+
+create a class p3rson  with field name and age and a method display that print the name and age of the person create a sub class employee that extend the person and fields salary and the method display that print the name age and salary of an employee created a sub class manger the extend employee and add a field department name an a method display the print name and salary and department of the manger create am object of the person class an called display create a method an cerate an object of the manger class an  call the display method   
+
+
+
+
+method overriding
+
+if the same method is define for in super class and sub class then the method of the sub class over rides the method of the super class this is know as method overriding , we use method @override in the sub class above there sub class method , in java annotation are the meta data that we use to provide information to the compiler here @override specific the compiler that the method after the annotation override the method of the super class it is not mandatory to use @override how ever when we use this method should follow all the rules of overriding are the otherwise the complier generated THE error 
+
+
+java overriding rules 
+1- both the super class and sub class must have the same method name, the same written type and the same parameter list
+2- we can not override the method declare as final and static
+3- we should always over ride appestats to the super class
+
+
+java super key words 
+the super key word in java use to access super class member (attributes , constructor and methos )use of super keys word 
+1- to call method of the super class that is overridden in the sub class 
+2- to access the attribute of the super class if both super class and sub class have the dame attributes name
+3- to explicitly call super class no argument pr paraments constructors form the sub class constructors 
+
+
+
+

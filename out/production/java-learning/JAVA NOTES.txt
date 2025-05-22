@@ -1,0 +1,20 @@
+Java main() Method – public static void main(String[] args)
+
+public:
+Access Modifier: The public keyword is an access modifier that allows the JVM to access the main method from outside the class. Without public, the JVM would not be able to call this method, and the program would not run.
+
+static:
+Static Method: The static keyword indicates that the method belongs to the class, not to any specific instance of the class. This is important because the JVM needs to invoke the method without creating an instance of the class first. Making main static allows it to be called using the class name directly.
+
+void:
+Return Type: The void keyword specifies that the main method does not return any value. It simply executes the code inside its block.
+main:
+
+Method Name: This is the standard name used by the JVM as the entry point for any Java application. The method name is case-sensitive, so it must be exactly main.
+String[] args:
+
+Parameter: The args parameter is an array of String objects. It is used to pass command-line arguments to the program. Each element of the array is one of the arguments passed. For example, if a user runs java MyProgram arg1 arg2, args[0] would be "arg1" and args[1] would be "arg2".
+Usage: Command-line arguments are often used for configuration purposes, such as specifying file names, modes of operation, or other settings that the program might need.
+
+{ ... }:
+Method Body: The curly braces {} enclose the block of code that defines the body of the main method. This is where you write the code that you want to execute when the program starts.
